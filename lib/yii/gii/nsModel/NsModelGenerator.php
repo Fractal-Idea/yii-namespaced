@@ -4,5 +4,5 @@ Yii::import('system.gii.generators.model.ModelGenerator');
 
 class NsModelGenerator extends ModelGenerator
 {
-	public $codeModel='application.gii.nsModel.NsModelCode';
+	public $codeModel='lib.yii.gii.nsModel.NsModelCode';
 }
