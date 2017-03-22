@@ -18,7 +18,7 @@ lib |
 ├─&ensp;models | 
 │&ensp;&ensp;├─&ensp;BaseActiveRecord.php | extend Yii `CActiveRecord`, a little improved for `CActiveRecord`
 │&ensp;&ensp;└─&ensp;demo | `Database Name`
-│&ensp;&ensp;&ensp;&ensp;&ensp;├─&ensp;dao | extend `BaseActiveRecord`, class name start with `_`, overwrite by namespaced model generator
+│&ensp;&ensp;&ensp;&ensp;&ensp;├─&ensp;dao | extend `BaseActiveRecord`, overwrite by namespaced model generator
 │&ensp;&ensp;&ensp;&ensp;&ensp;└─&ensp;domain | model class, extend base model class at `dao`, for custom code, never be overwrited
 ├─&ensp;site | 
 └─&ensp;yii | 
