@@ -16,6 +16,7 @@ _doc | documents
 lib | 
 ├─&ensp;constant | 
 ├─&ensp;models | 
+│&ensp;&ensp;├─&ensp;BaseActiveRecord.php | extend Yii `CActiveRecord`, a little improved for AR
 │&ensp;&ensp;└─&ensp;demo | `Database Name`
 │&ensp;&ensp;&ensp;&ensp;&ensp;├─&ensp;dao | base model class, class name start with `_`, overwrite by namespaced model generator
 │&ensp;&ensp;&ensp;&ensp;&ensp;└─&ensp;domain | model class, extend base model class at `dao`, for custom code, never be overwrited
