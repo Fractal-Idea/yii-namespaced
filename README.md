@@ -6,8 +6,8 @@ multiple entries demo<br/>
 namespaced model generator integrated to `gii`<br/>
 support environment-based config
 
-Project Struct
---------------
+Project Structure
+-----------------
 Path | Remark
 -----|-------
 yii | Yii 1.x framework
