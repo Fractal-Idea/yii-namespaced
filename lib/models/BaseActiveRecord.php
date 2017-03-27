@@ -20,15 +20,16 @@ class BaseActiveRecord extends \CActiveRecord
 
     /**
      * @param string $name
+     * @param mixed  $default
      *
      * @return mixed
      */
-    public function getAlias($name)
+    public function getAlias($name, $default=null)
     {
         if(array_key_exists($name, $this->mapAlias) == true)
             return $this->mapAlias[$name];
 
-        return null;
+        return $default;
     }
 
     /**
