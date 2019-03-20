@@ -28,3 +28,4 @@ insert into tb_demo(num_a, num_b, num_c) values(floor(rand()*100),floor(rand()*1
 insert into tb_demo(num_a, num_b, num_c) values(floor(rand()*100),floor(rand()*100),floor(rand()*100));
 insert into tb_demo(num_a, num_b, num_c) values(floor(rand()*100),floor(rand()*100),floor(rand()*100));
 insert into tb_demo(num_a, num_b, num_c) values(floor(rand()*100),floor(rand()*100),floor(rand()*100));
+
